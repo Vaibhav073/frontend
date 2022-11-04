@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1 style="color:green">Sortable</h1>
+      
+    <b>Drag and drop</b>
+      
+    <div class="height"></div><br>
+      
+    <div id = "imageListId">
+        <div id="imageNo1" class = "listitemClass">
+            <img src="images.png" alt="">
+        </div>
+          
+        <div id="imageNo2" class = "listitemClass">
+            <img src="images.png" alt="">
+        </div>
+  
+        <div id="imageNo3" class = "listitemClass">
+            <img src="images.png" alt="">
+        </div>
+  
+        <div id="imageNo4" class = "listitemClass">
+            <img src="image.png" alt="">
+        </div>
+  
+        <div id="imageNo5" class = "listitemClass">
+            <img src="images.png" alt="">
+        </div>
+  
+        <div id="imageNo6" class = "listitemClass">
+            <img src="images.png" alt="">
+        </div>
+    </div>
+          
+    <div id="outputDiv">
+        <b>Output of ID's of images : </b>
+        <input id="outputvalues" type="text" value="6" />
+    </div>
+</body>
+  
+</html>
